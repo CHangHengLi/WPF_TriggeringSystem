@@ -1,0 +1,17 @@
+﻿<Application x:Class="TriggerSystemDemo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TriggerSystemDemo"
+             xmlns:converters="clr-namespace:TriggerSystemDemo.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/CommonStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            
+            <!-- 全局转换器 -->
+            <converters:StringNotEmptyConverter x:Key="StringNotEmptyConverter"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
