@@ -3,6 +3,7 @@
 ## 项目简介
 
 本项目是一个基于.NET Core 9.0的WPF示例应用，用于演示WPF中各种触发器(Trigger)系统的使用方法和最佳实践。项目采用MVVM(Model-View-ViewModel)架构模式设计，包含多种触发器类型的实际应用场景。
+![MrmlaXTEgP](https://github.com/user-attachments/assets/063c9680-1a03-4d96-b770-b33ced8d4ce3)
 
 ## 运行环境
 
@@ -85,11 +86,6 @@ TriggerSystemDemo/
 - Model: 定义数据结构和业务逻辑
 - ViewModel: 作为View和Model之间的中介，处理UI逻辑并提供数据绑定
 - View: 负责UI界面展示，通过数据绑定和命令绑定与ViewModel通信
-
-## 学习资源
-
-项目基于《WPF之触发器系统》文档进行实现，建议结合该文档学习使用：
-- [WPF之触发器系统.md](WPF之触发器系统.md)
 
 ## 许可证
 
