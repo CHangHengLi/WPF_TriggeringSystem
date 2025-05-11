@@ -7,7 +7,7 @@
 
 ## 运行环境
 
-- .NET Core 9.0 或更高版本
+- .NET Core 8.0 或更高版本
 - Windows操作系统
 - Visual Studio 2022 或更高版本
 
